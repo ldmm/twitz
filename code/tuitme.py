@@ -26,7 +26,7 @@ while True:
 	temp = []
 	tuits = []
 	for i in range(1000):
-		temp.append( chomsky(1) + ' #dhsi2013')
+		temp.append( chomsky(1) + ' ' + hashtag)
 
 	for t in temp:
 		if len(t) <=140:
